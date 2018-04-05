@@ -1,0 +1,21 @@
+<!-- started at 1800-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+    <script type="text/javascript" src="javascript/todo.js"></script>
+    <title>My Todo List</title>
+
+</head>
+<body onload="loadList()">
+    <header >
+        <input type="text" value="" id="todoInput" placeholder="Enter Item">
+        <button id="addItem" onclick="addItem()">Add Item</button>
+    </header>
+    <div class="container">
+        <!-- display pending todo list-->
+        <ol class="todo" id="todo"></ol>
+    </div>
+</body>
+</html>

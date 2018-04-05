@@ -1,0 +1,49 @@
+body{
+    background-image: radial-gradient(mintcream 0%, gray 100%);
+    font-family: "Trebuchet MS";
+}
+
+.container{
+    width: 300px;
+    height: auto;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: solid 8px #2c3033;
+    background: white;
+    box-shadow: 0 0 0px 1px rgba(255,255,255,.4),
+    0 0 0px 3px #2c3033;
+}
+header{
+    width: 100%;
+    height: 50px;
+
+    border-radius: 10px 10px 0 0px;
+    background-image: linear-gradient(#687480 0%, #3b4755 100%);
+    font: bold 18px/50px arial;
+    text-align: center;
+    color: white;
+    box-shadow: inset 0 -2px 3px 2px rgba(0,0,0,.4),
+    0 2px 2px 2px rgba(0,0,0,.4);
+}
+span{
+    display: block;
+    width: 100%;
+    height: 90%;
+    border-bottom: dashed 2px #54687a;
+}
+.delete{
+    background-color:gray;
+    border: none;
+    color:white;
+    padding:20px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size: 12px;
+    margin: 4px 9px;
+    border-radius: 90%;
+    position: relative;
+    left:12px;
+    align:right;
+
+}
